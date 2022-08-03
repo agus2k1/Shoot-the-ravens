@@ -39,7 +39,7 @@ class Raven {
         this.randomColors = [Math.floor(Math.random() * 255), Math.floor(Math.random() * 255,), Math.floor(Math.random() * 255,)];
         this.color = "rgb(" + this.randomColors[0] + "," + this.randomColors[1] + "," + this.randomColors[2] + ")";
         this.hasTrail = Math.random() > 0.5;
-        this.isGolden = Math.random() > 0.8;
+        this.isGolden = Math.random() > 0.75;
     }
     update(time) {
         if (this.y < 0 || this.y > canvas.height - this.height) {
